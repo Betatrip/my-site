@@ -118,17 +118,24 @@ body {
   margin: 4px 0 16px;
   padding: 0;
   height: 14px;
-  font-size: 0;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
   background-color: #080208;
   border: 1px solid #712073;
-  border-radius: 8px;
+  border-radius: 12px;
+}
+
+.level-text {
+  text-align: center;
+  margin: -10px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
   background-color: #fea18d;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .portfolio {
