@@ -128,7 +128,8 @@ body {
 
 .level-text {
   text-align: center;
-  margin: -10px;
+  margin-bottom: -10px;
+  margin-top: -20px;
 }
 
 .level div {
