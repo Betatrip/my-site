@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Encient German Gothic';
+  src: url('fonts/EncientGermanGothic.woff') format('woff'),
+       url('fonts/EncientGermanGothic.woff2') format('woff2');
+}
+
+body {
+  background-color: black;
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Encient German Gothic';
+  color: red;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(152, 5, 5, 0.605);
+  height: 115px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 60px;
+}
+
+h1 {
+  color: red;
+  font-size: 6em;
+}
+
+p {
+  font-size: 3em;
+  color: red;
+}
+
+.stroke {
+  margin-top: 20px;
+  text-shadow: rgb(124, 0, 0) 3px 4px 0px;
+}
+
+a {
+  font-family: 'Encient German Gothic';
+  text-decoration: none;
+  font-size: 3em;
+  color: red;
+  display: inline-block;
+}
+
+.a-center {
+  text-align: center;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Encient German Gothic';
+}
