@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 
 body {
 	background-color: #b8c6db;
@@ -20,51 +21,19 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
 .opened {
   font-weight: 900;
   border-bottom: 4px solid black;
 }
 
-.images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.img1, .img2 {
-  width: 450px;
-  height: 250px;
-}
-
-.img1 {
-  padding-right: 40px;
-}
-
-footer {
-  font-family: 'Raleway', sans-serif;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  padding: 10px;
-  height: 30px;
-  color: rgb(79, 61, 138);
-  background-color: #537895;
-  background-image: linear-gradient(315deg, #b8c6db 100%, #f5f7fa 74%);
-}
-
-.footer-copyright, .footer-email {
-  padding-top: 5px;
-}
-
-.footer-copyright {
-  float: left;
-}
-
-.footer-email {
-  float: right;
-  padding-right: 30px;
+.about {
+  font-weight: 500;
 }
 
 .content {
@@ -82,4 +51,33 @@ a {
 
 a:hover {
   color: rgb(41, 89, 213);
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  color: rgb(79, 61, 138);
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #b8c6db 100%, #f5f7fa 74%);
+  background-size: 100% 50%;
+}
+
+.footer-copyright, .footer-email {
+  padding-top: 5px;
+}
+
+.footer-copyright {
+  float: left;
+}
+
+.footer-email {
+  float: right;
+  padding-right: 30px;
 }
